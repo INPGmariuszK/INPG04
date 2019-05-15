@@ -1,5 +1,7 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-def fib(a,b):
+def fib(a):
     n, m = 1, 0
+    for i in range(a):
+        n, m = n + m, n
+    print( n )
+
+fib(int(input())
