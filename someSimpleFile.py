@@ -4,6 +4,7 @@ def fib(a):
         n, m = n + m, n
     return n
 
-nmb = int(input())
+if __name__ == "__main__":
+    nmb = int(input())
 
-print(nmb, ". elementem ciągu Fibbonaciego jest:", fib(nmb))
+    print(nmb, ". elementem ciągu Fibbonaciego jest:", fib(nmb))
