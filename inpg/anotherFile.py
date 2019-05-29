@@ -9,4 +9,4 @@ class FibTest(unittest.TestCase):
         self.assertEqual(2, someSimpleFile.fib(2))
         
     def test_fib1(self):
-        self.assertEqual(6, someSimpleFile.fib(3))
+        self.assertEqual(24, someSimpleFile.fib(4))
